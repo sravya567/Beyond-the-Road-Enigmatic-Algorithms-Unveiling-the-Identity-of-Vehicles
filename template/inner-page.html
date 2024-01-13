@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Beyond the Road: Enigmatic Algorithms Unveiling the Identity of Vehicles</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="static/assets/img/favicon.png" rel="icon">
+  <link href="static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Delicious
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+
+  <main id="main">
+
+    <section class="/inner-page">
+        <div class="container">
+           
+        <h2>we can predict here </h2>
+        <center>
+        
+         <h3 style="color:rgb(3, 104, 151);">Classification of Vehicle Images</h3>
+         <p class="fst-italic">
+
+         <div class="container">
+           <form method="post" action="/output" enctype="multipart/form-data">
+             <div class="row">
+               <div>
+                   <label for="file" class="upload-label">
+                     Choose...
+                   </label>
+                   <input type="file" name="file" accept="/image*" onchange="loadFile(event)">
+                   <p><img id="out" width="200"></p>
+                   <style>
+                   body {
+                     background-size: cover;
+                     background-image: url('https://i.pinimg.com/1200x/46/0b/e8/460be88a458e951ad1a5610e50d430cc.jpg');
+                   }
+                   </style>
+
+
+             
+                 <script>
+                   var loadFile = function (event) {
+                     var image = document.getElementById('out');
+                     image.src = URL.createObjectURL(event.target.files[0])
+                   };
+                 </script>
+                 <div>
+
+                 </div>
+
+
+               </div>
+
+               <div class="loader" style="display:none;"></div>
+             </div>
+
+              <button type="predict" class="btn-get-started scrollto">Predict</button>
+
+           </form>
+           </center>
+
+  </main><!-- End #main -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="static/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="static/assets/js/main.js"></script>
+
+</body>
+
+</html>
